@@ -1,0 +1,19 @@
+[user]
+	email = wrightwrongun@proton.me
+	name = michael
+[core]
+	pager = cat
+[alias]
+	pretty = log --all --graph --decorate --pretty=format:'%C(auto)%h -%d %s %Cgreen(%ar) %C(white)by %C(bold blue)%an'
+	la = log --all --graph --pretty=format:'%C(auto)%h%d %s %C(bold black)(%ar by <%aN>)%Creset'
+	lad = log --all --graph --pretty=format:'%Cgreen%ad%Creset %C(auto)%h%d %s %C(bold black)<%aN>%Creset' --date=format-local:'%Y-%m-%d %H:%M (%a)'
+	logdate = log --all --graph --pretty=format:'%Cgreen%ad%Creset %C(auto)%h%d %s %C(bold black)<%aN>%Creset' --date=format-local:'%Y-%m-%d %H:%M (%a)'
+	decorate = log --all --graph --decorate --pretty=oneline
+[init]
+	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

@@ -1,0 +1,63 @@
+{
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "guides.enabled": false,
+    "window.titleBarStyle": "native",
+    "vsicons.dontShowNewVersionMessage": true,
+    "rust.mode": "rls",
+    "rust-analyzer.semanticHighlighting.punctuation.enable": true,
+    "rust.ignore_deprecation_warning": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu",
+        "toolchain": "stable-x86_64-unknown-linux-gnu"
+    },
+    "rust.rls": {
+        "useRustfmt": true
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.colorTheme": "Argonaut",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000d8",
+        "sideBar.background": "#000",
+        "sideBar.foreground": "#fff",
+        "sideBar.border": "#008cff"
+    },
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "slint.libraryPaths": {
+        "SurrealismUI": "~/Source/rust/gui/rpncalc/ui/modules/surrealism-ui/index.slint"
+    },
+    "terminal.integrated.fontFamily": "MesloMGM Nerd Font",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": "normal",
+    "debug.console.fontFamily": "MesloLGM Nerd Font",
+    "scm.inputFontFamily": "MesloLGM Nerd Font",
+    "editor.fontFamily": "MesloLGM Nerd Font",
+    "editor.fontSize": 21,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.codeLensFontFamily": "MesloLGM Nerd Font",
+    "editor.inlineSuggest.fontFamily": "MesloLGM Nerd Font",
+    "editor.inlayHints.fontFamily": "MesloLGM Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.codeActionsOnSave": {}
+}
